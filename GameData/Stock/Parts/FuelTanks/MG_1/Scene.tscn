@@ -1,11 +1,11 @@
 [gd_scene load_steps=8 format=3 uid="uid://ljsvwdkcmhft"]
 
-[ext_resource type="Script" uid="uid://btpp6j4bi7rfx" path="res://Scripts/PartDefinition.cs" id="1_snaps"]
+[ext_resource type="Script" path="res://Scripts/PartDefinition.cs" id="1_snaps"]
 [ext_resource type="Texture2D" uid="uid://dvbk213jjdcvf" path="res://Assets/Textures/category_fuel.png" id="2_3iijt"]
-[ext_resource type="Material" uid="uid://dokglcqkxact" path="res://Assets/Prefabs/Parts/MG_1_FuelTank/Material.tres" id="3_3iijt"]
-[ext_resource type="ArrayMesh" uid="uid://bkhvvjotquawc" path="res://Assets/Prefabs/Parts/MG_1_FuelTank/MG_1_FuelTank.obj" id="4_iyj4f"]
+[ext_resource type="Material" uid="uid://dokglcqkxact" path="res://GameData/Stock/Parts/FuelTanks/MG_1/Material.tres" id="3_3iijt"]
+[ext_resource type="ArrayMesh" uid="uid://bkhvvjotquawc" path="res://GameData/Stock/Parts/FuelTanks/MG_1/Object.obj" id="4_iyj4f"]
 [ext_resource type="Script" uid="uid://bju7ped2nl5sy" path="res://Scripts/CraftAssembly/AttachNode.cs" id="5_iyj4f"]
-[ext_resource type="PackedScene" uid="uid://2u1df81enha5" path="res://Assets/Prefabs/PartModules/Gravity.tscn" id="6_cgs1j"]
+[ext_resource type="PackedScene" path="res://Assets/Prefabs/PartModules/Gravity.tscn" id="6_cgs1j"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_3iijt"]
 height = 3.00586

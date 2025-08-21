@@ -1,13 +1,13 @@
 [gd_scene load_steps=23 format=3 uid="uid://drmdivxomqm0s"]
 
-[ext_resource type="Script" uid="uid://btpp6j4bi7rfx" path="res://Scripts/PartDefinition.cs" id="1_jdvnx"]
+[ext_resource type="Script" path="res://Scripts/PartDefinition.cs" id="1_jdvnx"]
 [ext_resource type="Texture2D" uid="uid://cme6pqqht1o5u" path="res://Assets/Textures/category_engines.png" id="2_w72t0"]
-[ext_resource type="ArrayMesh" uid="uid://c01ww655lqk6s" path="res://Assets/Prefabs/Parts/GBRP_1_Engine/GBRP_1_Engine.obj" id="3_gjx41"]
-[ext_resource type="Texture2D" uid="uid://ci5ruh18atty1" path="res://Assets/Prefabs/Parts/GBRP_1_Engine/Color.png" id="3_w72t0"]
-[ext_resource type="Texture2D" uid="uid://dqa43c2uqx1nu" path="res://Assets/Prefabs/Parts/GBRP_1_Engine/Normal.png" id="4_heq1f"]
+[ext_resource type="ArrayMesh" uid="uid://c01ww655lqk6s" path="res://GameData/Stock/Parts/Engines/GBRP_1/Object.obj" id="3_gjx41"]
+[ext_resource type="Texture2D" uid="uid://ci5ruh18atty1" path="res://GameData/Stock/Parts/Engines/GBRP_1/Color.png" id="3_w72t0"]
+[ext_resource type="Texture2D" uid="uid://dqa43c2uqx1nu" path="res://GameData/Stock/Parts/Engines/GBRP_1/Normal.png" id="4_heq1f"]
 [ext_resource type="Script" uid="uid://bju7ped2nl5sy" path="res://Scripts/CraftAssembly/AttachNode.cs" id="6_heq1f"]
-[ext_resource type="PackedScene" uid="uid://2u1df81enha5" path="res://Assets/Prefabs/PartModules/Gravity.tscn" id="7_fy4nm"]
-[ext_resource type="PackedScene" uid="uid://e48at2cr02s6" path="res://Assets/Prefabs/PartModules/Engine.tscn" id="8_g14cd"]
+[ext_resource type="PackedScene" path="res://Assets/Prefabs/PartModules/Gravity.tscn" id="7_fy4nm"]
+[ext_resource type="PackedScene" path="res://Assets/Prefabs/PartModules/Engine.tscn" id="8_g14cd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7trfy"]
 albedo_texture = ExtResource("3_w72t0")

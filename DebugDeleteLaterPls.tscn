@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1qosdpr3kv7p"]
+
+[ext_resource type="Script" uid="uid://chvjvd0id2y27" path="res://Scripts/CraftAssembly/Parts/PartManager.cs" id="1_bnlx7"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_bnlx7")

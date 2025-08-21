@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://o67rqrqou1vp"
-path.s3tc="res://.godot/imported/Color.png-b57628f40cb0060a289246f156a0c60d.s3tc.ctex"
+uid="uid://kjk872mugwuy"
+path.s3tc="res://.godot/imported/Normal.png-b9590578118ddd11308ee7ffe1764996.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Prefabs/Parts/MG_1_Pod/Color.png"
-dest_files=["res://.godot/imported/Color.png-b57628f40cb0060a289246f156a0c60d.s3tc.ctex"]
+source_file="res://GameData/Stock/Parts/Capsules/MG_1/Normal.png"
+dest_files=["res://.godot/imported/Normal.png-b9590578118ddd11308ee7ffe1764996.s3tc.ctex"]
 
 [params]
 
@@ -20,12 +20,12 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://Assets/Prefabs/Parts/MG_1_Pod/Normal.png"
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

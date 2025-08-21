@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci5ruh18atty1"
-path.s3tc="res://.godot/imported/Color.png-816d9ca4938b77ff8c5d745297a24c46.s3tc.ctex"
+path.s3tc="res://.godot/imported/Color.png-48932a40cd409a585a40ccbfd8d2acaa.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Prefabs/Parts/GBRP_1_Engine/Color.png"
-dest_files=["res://.godot/imported/Color.png-816d9ca4938b77ff8c5d745297a24c46.s3tc.ctex"]
+source_file="res://GameData/Stock/Parts/Engines/GBRP_1/Color.png"
+dest_files=["res://.godot/imported/Color.png-48932a40cd409a585a40ccbfd8d2acaa.s3tc.ctex"]
 
 [params]
 

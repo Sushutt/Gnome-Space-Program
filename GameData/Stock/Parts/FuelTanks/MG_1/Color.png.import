@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cf5m5csmtr4w4"
-path.s3tc="res://.godot/imported/Color.png-bcd8714df12104e958439bca87e5fe4d.s3tc.ctex"
+path.s3tc="res://.godot/imported/Color.png-320715634c4975622f96851d98bbcee2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Prefabs/Parts/MG_1_FuelTank/Color.png"
-dest_files=["res://.godot/imported/Color.png-bcd8714df12104e958439bca87e5fe4d.s3tc.ctex"]
+source_file="res://GameData/Stock/Parts/FuelTanks/MG_1/Color.png"
+dest_files=["res://.godot/imported/Color.png-320715634c4975622f96851d98bbcee2.s3tc.ctex"]
 
 [params]
 
