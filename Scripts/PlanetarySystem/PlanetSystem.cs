@@ -140,10 +140,10 @@ public partial class PlanetSystem : Node3D
 		celestialBodies.Add(cBody);
 		if (cBody.orbit != null)
 		{
-			OrbitRenderer renderer = (OrbitRenderer)orbitRendererPrefab.Instantiate();
-			renderer.cBody = cBody;
-			renderer.camera = ((RemoteCam)GetTree().GetFirstNodeInGroup("Camera")).localCamera;
-			orbitRenderers.AddChild(renderer);
+			//OrbitRenderer renderer = (OrbitRenderer)orbitRendererPrefab.Instantiate();
+			//renderer.cBody = cBody;
+			//renderer.camera = ((RemoteCam)GetTree().GetFirstNodeInGroup("Camera")).localCamera;
+			//orbitRenderers.AddChild(renderer);
 		}
 		if (cBody.isRoot) rootBody = cBody;
         cBody.pqsSphere = new TerrainGen

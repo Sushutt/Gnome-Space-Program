@@ -46,7 +46,7 @@ public partial class CelestialBody : Node3D
     public void ProcessOrbitalPosition()
     {
         // Subtract the current influencing cBody's position from our position
-        Double3 originPos = cartesianData.position + FloatingOrigin.Instance.offset.GetPosYUp();
+        Double3 originPos = cartesianData.position; //+ FloatingOrigin.Instance.offset.GetPosYUp();
 
         Position = originPos.GetPosYUp().ToFloat3();
 

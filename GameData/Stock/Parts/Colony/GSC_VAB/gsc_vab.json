@@ -1,0 +1,13 @@
+{
+  "configType": "Part",
+  "name": "gnobeSystem",
+  "category": "Colony Parts",
+  "assets": "Stock/Parts/Colony/GSC_VAB/THEASSETS.pck",
+  "partScene": "partScenegivenamepls",
+
+  "modules": {
+    "CraftAssembler": {
+
+    }
+  }
+}

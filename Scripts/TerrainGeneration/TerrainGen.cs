@@ -86,8 +86,8 @@ public partial class TerrainGen : Node3D
 
     public override void _Process(double delta)
     {
-        player = FlightManager.Instance.currentCraft;
-        playerPos = player.GlobalPosition;
+        //player = FlightManager.Instance.currentCraft;
+        playerPos = Vector3.Zero;//player.GlobalPosition;
         planetCenter = GlobalPosition;
     }
 
